@@ -1,0 +1,18 @@
+使用方法如下(PC环境要安装了Java)：
+一： 用keystore方式签名：
+1. 把KeyStore文件拷贝到sign.bat同级目录下，覆盖原KeyStoreFile；
+同时，修改sign.bat文件：
+	将xxxxxx换成签名的密码；
+	将yyyyyy换成签名的别名；
+这一步只要做一次就好了；
+
+2. 每次签名时，将待签名的APK都拷贝到子目录apk下；
+3. 运行sign.bat，完成后，在signed目录下，就是签好的包了，APK文件名保持不变。
+
+
+二： 用pk8和pem文件签名：
+1. 把签名文件(两个，pk8和pem)拷贝到sign.bat同级目录下，覆盖key.pk8和key.x509.pem；
+这一步只要做一次就好了；
+
+2. 每次签名时，将待签名的APK都拷贝到子目录apk下；
+3. 运行signpem.bat，完成后，在signed目录下，就是签好的包了，APK文件名保持不变。
