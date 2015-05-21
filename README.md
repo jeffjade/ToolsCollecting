@@ -1,17 +1,20 @@
 ###ToolsCollecting###
-
+---
 Collect All Kinds Tools,For Example,Android Or Web Development An So On .
+
+**AndroidTools File Folder:** Collecting Android Tools  
+
+**LuaTools File Folder:** Collecting Lua Tools
 ---
 
 ---
-#### **AndroidTools:** Collecting Android Tools   
-
+#### **For Android Development** 
 [八款Android 开发者必备的小工具](http://www.jianshu.com/p/e4efec23d4d4)
  
 [我是如何自学Android，资料分享（2015 版）](http://www.jianshu.com/p/874ff12a4c01)
 
 ---
-#### **LuaTools:** Collecting Lua Tools  
+#### **For Lua Development**  
 [使用LDoc给Lua生成文档](http://www.jianshu.com/p/7bfc02f4db96)
 
 ---
